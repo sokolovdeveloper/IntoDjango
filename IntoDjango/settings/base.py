@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 Django settings for IntoDjango project.
 
@@ -20,10 +22,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'chg3i)-3)4)!cn4)64$75frr0k#ap0%0d(mk52=1pm$m*@9x^y'
+SECRET_KEY = '...'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -79,9 +81,9 @@ WSGI_APPLICATION = 'IntoDjango.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'intopython',
-        'USER': 'dbuser',
-        'PASSWORD': 'abacaba',
+        'NAME': '...',
+        'USER': '...',
+        'PASSWORD': '...',
 #        'HOST': '127.0.0.1',
 #        'PORT': '5432',
     }
