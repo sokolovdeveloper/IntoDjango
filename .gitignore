@@ -1,5 +1,5 @@
 extra/
-.idea/
+/.idea/
 IntoDjango/settings/local.py
 
 # Created by .ignore support plugin (hsz.mobi)
